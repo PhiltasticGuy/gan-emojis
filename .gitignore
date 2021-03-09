@@ -1,6 +1,12 @@
 #emojis
 emojis-fixed/
 
+# Compressed datasets
+*.npz
+
+# Run results and incremental models
+run*/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
