@@ -4,6 +4,9 @@ emojis-fixed/
 # Compressed datasets
 *.npz
 
+# Saved models
+*.h5
+
 # Run results and incremental models
 run*/
 
