@@ -50,3 +50,4 @@
 * <https://www.tensorflow.org/guide/gpu#setup>
   * pip install --user --ignore-installed --upgrade tensorflow-gpu
   * [StackOverflow - Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found](https://stackoverflow.com/questions/65608713/tensorflow-gpu-could-not-load-dynamic-library-cusolver64-10-dll-dlerror-cuso)
+* <https://www.tensorflow.org/install/pip>
