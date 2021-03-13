@@ -29,6 +29,10 @@ from tensorflow.python.client import device_lib; print(device_lib.list_local_dev
 # Enable debug logs for TensorFlow
 # tf.debugging.set_log_device_placement(True)
 
+# import keras.backend as K
+# K.set_floatx('float16')
+# K.set_epsilon(1e-4) #default is 1e-7
+
 def define_discriminator(in_shape=(48, 48, 3), kernel_size=(3, 3)):
     model = Sequential()
     # Normal
