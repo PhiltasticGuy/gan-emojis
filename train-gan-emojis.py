@@ -222,12 +222,12 @@ def train(d_model, g_model, gan_model, dataset, latent_dim, n_epochs=100, n_batc
 latent_dim = 100
 
 # Create the discriminator
-# d_model = define_discriminator()
-d_model = load_model('e075_discriminator.h5')
+d_model = define_discriminator()
+# d_model = load_model('e075_discriminator.h5')
 
 # Create the generator
-# g_model = define_generator(latent_dim)
-g_model = load_model('e075_generator.h5')
+g_model = define_generator(latent_dim)
+# g_model = load_model('e075_generator.h5')
 
 # Create the GAN
 gan_model = define_gan(d_model, g_model)
