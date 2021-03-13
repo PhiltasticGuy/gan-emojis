@@ -1,5 +1,17 @@
 # GAN Emojis
 
+## Models
+
+### Training Timelapse
+
+![Training Timelapse](assets/training-timelapse.gif)
+
+### Generated Samples
+
+![emojis_e068_r4](assets/emojis_e068_r4.png)
+![emojis_e079_r4](assets/emojis_e079_r4.png)
+![emojis_e097_r4](assets/emojis_e097_r4.png)
+
 ## Machine Setup
 
 ### Python Packages
